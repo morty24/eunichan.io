@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+    font-family:" montserrat";
+}
+
+
+
+ section #tups{
+     position: absolute;
+     top: 0;
+     left: 0;
+     object-fit: cover;
+     width: 100%;
+     height: 600%;
+     background-repeat: no-repeat;
+     pointer-events: none;
+     filter: blur(20px);
+ }
+ 
+
+
+
+#btngenerator{
+ margin-top: 10%;
+ margin-left: 25%;
+height: 50px;
+width: 350px;
+background:rgba(255,255,255,0.1) ;
+font-size: 20px;
+font-weight: 700;
+border-color: 10px #021d30;
+border-radius: 5%;
+transition: 0.8s;
+}
+
+
+#btngenerator:hover{
+
+    background-color: rgba(192, 6, 6, 0.5);
+}
+
+
+
+.container h5{
+    margin-top: 20%;
+    align-items: center;
+    color:goldenrod;
+   border-style: solid black;
+   box-shadow:   2px 2px 0px 0px rgb(46, 44, 44);
+   background-color: rgba(255,255,255,0.1);
+    
+  
+}
+span{
+    opacity: 0;
+}
+.container{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 30px;
+    
+    }
+    .container h1{
+        color: whitesmoke;
+        font-weight: 600;
+        letter-spacing: 10px;
+        animation:pt 3s 1;
+    }
+    .container p{
+        color: #ffdb58;
+        font-weight: 600;
+        margin-top: 10px;
+        letter-spacing: 15px;
+        animation:pt 3s 1;
+    
+    }
+    .container img{
+       
+        margin-left: 45%;
+        animation: pt 3s 1;
+    }
+    
+
+@keyframes pt {
+    0%{
+        color: black;
+        margin-top: 20%;
+        
+    }
+    30%{
+        letter-spacing: 10px;
+        margin-right: -40%;
+    }
+    80%{
+        letter-spacing: 10px;
+        margin-top: -10%;
+    }
+   
+}
+
+
+.mainpage{
+    background-color: black;
+    
+}
+
+
+.timeline-area{
+    
+    margin:60% auto;
+    width: 900px;
+    border-left: 2px solid #ccc;
+    padding: 0 20px 0 30px;
+}
+.timeline-area div{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 25px;
+    font-size: 16px;
+    border:1px solid  rgba(255, 255, 255, 0.5);
+    line-height: 1.7;
+    position: relative;
+    height: 130px;
+    margin-bottom: 20px;
+}
+.timeline-area div:before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:  rgba(7, 7, 7, 1);
+    border: 3px solid  rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 10px;
+    left: -40px;
+}
+.timeline-area div:after{
+content: '';
+width: 0;
+height: 0;
+border-style: solid;
+border-color: transparent  rgba(255, 255, 255, 0.5) transparent transparent;
+border-width: 8px;
+position: absolute;
+left: -17px;
+top: 10px;
+}
+.timeline-area div h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: merienda;
+}
+.timeline-area div h3{
+    margin: 0;
+    font-family: poppins;
+}
+.timeline-area div h4{
+    margin: 0;
+    font-family: poppins;
+}
